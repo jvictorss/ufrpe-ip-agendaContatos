@@ -13,6 +13,8 @@ def main():
         elif opcaoMenu == 4:
             excluirContato()
         elif opcaoMenu == 5:
+            buscarContato()
+        elif opcaoMenu == 6:
             #Sair da aplicação
             print("Aplicação encerrada!")
             break
